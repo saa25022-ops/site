@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>【公式】未来を創るスマートアグリハイスクール | オープンキャンパス開催</title>
+    <title>【公式】愛媛県立西条農業高等学校 | 伝統×最先端アグリテクノロジー</title>
     <!-- Tailwind CSS (CDN) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts (Noto Sans JP) -->
@@ -19,14 +19,19 @@
                 extend: {
                     colors: {
                         brand: {
-                            50: '#f2f8f3',
-                            100: '#e2f0e5',
-                            500: '#2d7a43', // 農業のメイングリーン
-                            600: '#225c32',
-                            700: '#184224',
-                            light: '#8fc33a', // 先進的なライトグリーン
+                            50: '#f1f8f4',
+                            100: '#e0f0e5',
+                            500: '#1b6e36', // 西農グリーン（深い緑）
+                            600: '#145328',
+                            700: '#0e3a1c',
+                            light: '#7cb325', // 芽吹く葉のグリーン
                         },
-                        accent: '#ff8c00', // CVを促すオレンジ
+                        water: {
+                            50: '#f0f9ff',
+                            500: '#0096c7', // 名水「うちぬき」のアクアブルー
+                            600: '#0077b6',
+                        },
+                        accent: '#ff8c00', // みかんオレンジ・行動喚起
                     },
                     fontFamily: {
                         sans: ['Noto Sans JP', 'sans-serif'],
@@ -40,7 +45,7 @@
             scroll-behavior: smooth;
         }
         .hero-gradient {
-            background: linear-gradient(135deg, rgba(34, 92, 50, 0.9) 0%, rgba(15, 41, 22, 0.95) 100%);
+            background: linear-gradient(135deg, rgba(20, 83, 40, 0.95) 0%, rgba(0, 119, 182, 0.9) 100%);
         }
         .fade-in {
             opacity: 0;
@@ -56,17 +61,15 @@
 <body class="font-sans text-gray-800 bg-gray-50 leading-relaxed overflow-x-hidden">
 
     <!-- =========================================================================
-         [PRE-CONTENT] LP構成案・ワイヤーフレーム（開発・マーケティング用ドキュメント）
-         ※HTML内の非表示データまたは開発用コメントとして記述、もしくはヘッダー上部にトグルで表示可能です。
-         ここでは、ユーザーがコードと同時に構成案を確認できるよう、LP最上部に「企画構成シート」として美しくデザイン配置しています。
+         [PRE-CONTENT] LP構成案・ワイヤーフレーム（西条農業高校マーケティングドキュメント）
          ========================================================================= -->
-    <aside class="bg-gray-900 text-gray-300 py-6 px-4 border-b-4 border-brand-light">
+    <aside class="bg-gray-900 text-gray-300 py-6 px-4 border-b-4 border-water-500">
         <div class="max-width-7xl mx-auto max-w-5xl">
             <details class="group">
                 <summary class="flex justify-between items-center font-bold text-lg text-white cursor-pointer select-none">
                     <span class="flex items-center gap-2">
-                        <i class="fa-solid fa-file-invoice text-brand-light"></i>
-                        【マーケター・開発者用】LP企画構成案・ワイヤーフレームシート（クリックで展開）
+                        <i class="fa-solid fa-file-invoice text-water-500"></i>
+                        【西条農業高校】LP企画構成案・地域連携マーケティング戦略（クリックで展開）
                     </span>
                     <span class="transition group-open:rotate-180">
                         <i class="fa-solid fa-chevron-down"></i>
@@ -74,29 +77,25 @@
                 </summary>
                 <div class="mt-6 pt-6 border-t border-gray-700 text-sm space-y-6">
                     <div>
-                        <h4 class="text-brand-light font-bold text-base mb-2">■ ターゲティング＆ペルソナ</h4>
-                        <p class="mb-1"><strong>【メイン層】</strong> 農業、食、自然、あるいはロボットやテクノロジーに関心がある中学3年生（男女）</p>
-                        <p class="mb-1"><strong>【サブ層】</strong> 進路の「就職・進学実績」や「子どもの主体性」を重視する保護者、中学校の進路指導教諭</p>
-                        <p><strong>【インサイト】</strong> 「ただの土いじりで終わりそう」「将来の進路が狭まりそう」という誤解を払拭し、「最先端サイエンスと国際ビジネスとしての農業」を提示してワクワク感を醸成する。</p>
+                        <h4 class="text-water-500 font-bold text-base mb-2">■ ターゲティング＆地域ニーズ分析</h4>
+                        <p class="mb-1"><strong>【ターゲット】</strong> 愛媛県東予地域（西条市、新居浜市、今治市など）を中心とする中学3年生と、その保護者</p>
+                        <p class="mb-1"><strong>【西農(さいのう)の独自価値】</strong> 大正8年創立の圧倒的歴史、西条の極上名水「うちぬき」を活かした贅沢な農業環境、ICT（iPadやFileMaker等）やデジタルラボをいち早く取り入れたスマート教育体制。</p>
+                        <p><strong>【訴求ストーリー】</strong> 西条の「自然豊かな大地の恵み（名水・うちぬき）」×「時代の最先端デジタル技術」を融合。食から環境保全、ものづくり、ライフデザインまで、幅広いキャリアを構築できる総合的な専門高校としての価値をアピールします。</p>
                     </div>
 
                     <div class="grid md:grid-cols-2 gap-4">
                         <div>
-                            <h4 class="text-brand-light font-bold text-base mb-2">■ セクション構成案（ストーリーライン）</h4>
-                            <ul class="list-decimal list-inside space-y-1.5 text-gray-300">
-                                <li><strong>ファーストビュー (FV)</strong>: キャッチコピー、イメージ映像、直感的なCV誘導</li>
-                                <li><strong>イントロダクション</strong>: 既存の「農業」のイメージを覆す共感と再定義（先進アグリ）</li>
-                                <li><strong>学校の3つの強み</strong>: スマート農業、ブランド開発、進路実績（信頼性提示）</li>
-                                <li><strong>未来のロードマップ</strong>: 卒業後の多彩なキャリアプランの可視化</li>
-                                <li><strong>在校生・卒業生インタビュー</strong>: リアルな体験談による安心感と憧れの醸成</li>
-                                <li><strong>イベント概要 & FAQ</strong>: 疑問解消とオープンキャンパスの重要性訴求</li>
-                                <li><strong>CVエリア (フォーム)</strong>: ストレスのない入力設計（スマホ最適化）</li>
+                            <h4 class="text-water-500 font-bold text-base mb-2">■ 学科構成と訴求キーワード</h4>
+                            <ul class="list-disc list-inside space-y-1.5 text-gray-300">
+                                <li><strong>食農科学科</strong>: 作物・野菜・果樹栽培、食品製造。安全安心なアグリバイオ。</li>
+                                <li><strong>環境工学科</strong>: 農業土木（ドローン・測量）、環境化学。インフラ・地域を創る力。</li>
+                                <li><strong>生活デザイン科</strong>: 調理・被服・保育・福祉。地域に寄り添うライフスタイル。</li>
                             </ul>
                         </div>
                         <div>
-                            <h4 class="text-brand-light font-bold text-base mb-2">■ デザイン＆コピー方針</h4>
-                            <p class="mb-2"><strong>【デザイン】</strong> 「アースカラーの深緑」で大地と安心感を表現しつつ、ハイテク感・洗練度を醸し出す「蛍光ライムグリーン」と「清潔なホワイト」をブレンド。古い農業高校のイメージを完全に刷新するクリーンで洗練されたUI。</p>
-                            <p><strong>【コピー】</strong> 「これからの農業は、最先端のサイエンスだ。」をキーメッセージに据え、理系進学やITキャリア、グローバルビジネスに直結する学びであることをアピール。</p>
+                            <h4 class="text-water-500 font-bold text-base mb-2">■ デザイン＆コピー方針</h4>
+                            <p class="mb-2"><strong>【デザイン】</strong> 「西農グリーン」を基調にしつつ、石鎚山脈から湧き出る自噴水「うちぬき」を想起させる美しい「アクアブルー」を融合。伝統ある古臭さを払拭し、3Dプリンターやデジタルを使いこなす若々しいスマートイメージに昇華。</p>
+                            <p><strong>【コンバージョン】</strong> オープンキャンパスへの参加申し込みを容易にし、東予全域から通いやすい魅力を伝えます。</p>
                         </div>
                     </div>
                 </div>
@@ -110,23 +109,23 @@
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
             <div class="flex items-center gap-3">
-                <div class="bg-brand-500 text-white p-2 rounded-lg">
+                <div class="bg-brand-500 text-white p-2.5 rounded-xl">
                     <i class="fa-solid fa-seedling text-xl"></i>
                 </div>
                 <div>
-                    <span class="text-xs text-brand-500 font-bold block tracking-widest">みらい農業テクノロジー高等学校</span>
-                    <span class="text-lg font-bold text-gray-900 tracking-tight">アグリテックハイスクール</span>
+                    <span class="text-xs text-brand-500 font-bold block tracking-widest">愛媛県立西条農業高等学校</span>
+                    <span class="text-lg font-black text-gray-900 tracking-tight">西条農業高校 <span class="text-water-500 text-sm font-bold">[ 西農 / さいのう ]</span></span>
                 </div>
             </div>
             
             <nav class="hidden lg:flex items-center gap-8 font-medium text-gray-600 text-sm">
                 <a href="#intro" class="hover:text-brand-500 transition-colors">私たちの想い</a>
-                <a href="#strengths" class="hover:text-brand-500 transition-colors">3つの強み</a>
-                <a href="#careers" class="hover:text-brand-500 transition-colors">進路・キャリア</a>
+                <a href="#departments" class="hover:text-brand-500 transition-colors">3つの学科</a>
+                <a href="#projects" class="hover:text-brand-500 transition-colors">西農のスマート教育</a>
                 <a href="#voices" class="hover:text-brand-500 transition-colors">在校生の声</a>
                 <a href="#event" class="hover:text-brand-500 transition-colors">体験イベント</a>
                 <a href="#contact" class="bg-accent hover:bg-orange-600 text-white px-5 py-2.5 rounded-full font-bold shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5">
-                    申込はこちら <i class="fa-solid fa-calendar-days ml-1"></i>
+                    オープンキャンパス申込 <i class="fa-solid fa-calendar-days ml-1"></i>
                 </a>
             </nav>
 
@@ -139,12 +138,12 @@
         <!-- モバイルナビゲーション（JSで開閉） -->
         <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 px-6 py-4 space-y-3 shadow-inner">
             <a href="#intro" class="block text-gray-700 py-2 font-medium">私たちの想い</a>
-            <a href="#strengths" class="block text-gray-700 py-2 font-medium">3つの強み</a>
-            <a href="#careers" class="block text-gray-700 py-2 font-medium">進路・キャリア</a>
+            <a href="#departments" class="block text-gray-700 py-2 font-medium">3つの学科</a>
+            <a href="#projects" class="block text-gray-700 py-2 font-medium">西農のスマート教育</a>
             <a href="#voices" class="block text-gray-700 py-2 font-medium">在校生の声</a>
             <a href="#event" class="block text-gray-700 py-2 font-medium">体験イベント</a>
             <a href="#contact" class="block bg-accent text-white text-center py-3 rounded-xl font-bold shadow-md">
-                申込はこちら <i class="fa-solid fa-calendar-days ml-1"></i>
+                オープンキャンパス申込 <i class="fa-solid fa-calendar-days ml-1"></i>
             </a>
         </div>
     </header>
@@ -153,102 +152,104 @@
          1. ファーストビュー (ヒーローセクション)
          ========================================================================= -->
     <section class="relative min-h-[85vh] flex items-center justify-center text-white overflow-hidden hero-gradient">
-        <!-- 背景画像 (Unsplashから近代農業のスマートな風景を呼び出し) -->
+        <!-- 背景画像 (西条の美しい水と豊かな自然を感じるビジュアル) -->
         <div class="absolute inset-0 z-0 opacity-40 mix-blend-multiply">
-            <img src="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&q=80&w=2000" alt="スマート農業の様子" class="w-full h-full object-cover">
+            <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&q=80&w=2000" alt="西条農業高校の豊かな大地" class="w-full h-full object-cover">
         </div>
         
-        <!-- 装飾用のアブストラクト要素 -->
-        <div class="absolute -top-40 -left-40 w-96 h-96 bg-brand-light rounded-full mix-blend-screen filter blur-3xl opacity-20 animate-pulse"></div>
-        <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-brand-500 rounded-full mix-blend-screen filter blur-3xl opacity-30 animate-pulse"></div>
+        <!-- 装飾用のアブストラクト要素 (名水うちぬきのブルーと新緑をミックス) -->
+        <div class="absolute -top-40 -left-40 w-96 h-96 bg-water-500 rounded-full mix-blend-screen filter blur-3xl opacity-35 animate-pulse"></div>
+        <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-brand-light rounded-full mix-blend-screen filter blur-3xl opacity-35 animate-pulse"></div>
 
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-            <!-- 信頼性をアピールするバッジ -->
-            <span class="inline-flex items-center gap-2 bg-brand-light/20 border border-brand-light/30 text-brand-light px-4 py-2 rounded-full text-xs sm:text-sm font-bold tracking-widest uppercase mb-6 animate-bounce">
-                <i class="fa-solid fa-bolt"></i> 2027年度 新入生募集スタート！
+            <!-- 歴史と魅力をアピールするバッジ -->
+            <span class="inline-flex items-center gap-2 bg-white/20 border border-white/30 text-white px-4 py-2 rounded-full text-xs sm:text-sm font-bold tracking-widest uppercase mb-6">
+                <i class="fa-solid fa-trophy text-yellow-400"></i> 創立100余年を超える愛媛・東予の伝統校
             </span>
             
             <h1 class="text-3xl sm:text-5xl md:text-6xl font-black tracking-tight leading-tight mb-6">
-                土を愛し、テクノロジーで耕す。<br>
-                <span class="text-brand-light">これからの農業は、地球を救うサイエンスだ。</span>
+                名水「うちぬき」が育む大地で、<br>
+                <span class="text-brand-light">デジタルの力を使いこなすスマート農業を学ぶ。</span>
             </h1>
             
             <p class="max-w-3xl mx-auto text-base sm:text-lg md:text-xl text-gray-200 mb-10 font-normal leading-relaxed">
-                ドローンによるスマート栽培、遺伝子レベルの品種改良、グローバル経営学。<br class="hidden md:inline">
-                従来のイメージを180度覆す、最先端の「食と環境の科学」を学びませんか？
+                石鎚の澄みきった水、豊かなフィールド、そして全科に導入された「デジタルラボ」。<br class="hidden md:inline">
+                愛媛県立西条農業高校で、あなたの手で未来の「食・環境・暮らし」をデザインしませんか？
             </p>
             
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <a href="#contact" class="w-full sm:w-auto bg-accent hover:bg-orange-600 text-white px-8 py-4 rounded-xl text-lg font-black tracking-wide shadow-lg hover:shadow-orange-500/20 transform hover:-translate-y-1 transition-all flex items-center justify-center gap-2">
                     オープンキャンパスに申し込む <i class="fa-solid fa-arrow-right"></i>
                 </a>
-                <a href="#strengths" class="w-full sm:w-auto bg-white/10 hover:bg-white/20 border border-white/30 text-white px-8 py-4 rounded-xl text-lg font-bold tracking-wide transition-all flex items-center justify-center gap-2">
-                    学校の強みを見る <i class="fa-solid fa-circle-down"></i>
+                <a href="#departments" class="w-full sm:w-auto bg-white/10 hover:bg-white/20 border border-white/30 text-white px-8 py-4 rounded-xl text-lg font-bold tracking-wide transition-all flex items-center justify-center gap-2">
+                    3つの専門学科を詳しく知る <i class="fa-solid fa-circle-down"></i>
                 </a>
             </div>
 
-            <!-- ベネフィットの簡易提示 -->
+            <!-- 西条農業ならではのベネフィット提示 -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mt-16 pt-8 border-t border-white/10 text-xs sm:text-sm text-gray-300">
                 <div class="flex items-center justify-center gap-2">
-                    <i class="fa-solid fa-circle-check text-brand-light"></i> 国公立大農学部多数進学
+                    <i class="fa-solid fa-droplet text-water-500"></i> 名水100選「うちぬき」活用
                 </div>
                 <div class="flex items-center justify-center gap-2">
-                    <i class="fa-solid fa-circle-check text-brand-light"></i> 農業法人就職率100%
+                    <i class="fa-solid fa-laptop text-brand-light"></i> 全科導入デジタル教育
                 </div>
                 <div class="flex items-center justify-center gap-2">
-                    <i class="fa-solid fa-circle-check text-brand-light"></i> 最新スマート農機完備
+                    <i class="fa-solid fa-handshake text-brand-light"></i> 地元西条・東予との深い絆
                 </div>
                 <div class="flex items-center justify-center gap-2">
-                    <i class="fa-solid fa-circle-check text-brand-light"></i> 国家資格・各種免許取得
+                    <i class="fa-solid fa-graduation-cap text-water-500"></i> 多彩な進学・就職実績
                 </div>
             </div>
         </div>
     </section>
 
     <!-- =========================================================================
-         2. イントロダクション（共感・問題提起・コンセプトの再定義）
+         2. イントロダクション（愛媛県西条市における西農の役割・想い）
          ========================================================================= -->
     <section id="intro" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <span class="text-brand-500 font-bold tracking-widest text-sm uppercase block mb-2">Our Vision</span>
-                <h2 class="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">「ただの農業高校」だと思っていませんか？</h2>
-                <div class="h-1 w-20 bg-brand-light mx-auto mt-4"></div>
+                <h2 class="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">西条の自然を科学し、地域を活性化させる。</h2>
+                <div class="h-1 w-20 bg-brand-500 mx-auto mt-4"></div>
             </div>
 
             <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <div class="space-y-6">
                     <p class="text-lg font-bold text-gray-900 leading-snug">
-                        気候変動、食料危机、人口増加。<br>
-                        いま、世界の課題を解決する主役は「農業テクノロジー」です。
+                        石鎚の山々から湧き出る伝説の名水「うちぬき」。<br>
+                        この清らかな水が流れる豊かな西条市が、私たちのキャンパスです。
                     </p>
                     <p class="text-gray-600">
-                        「農業といえばキツい作業…」というのは、もう一世代前の話。現在の農業は、AIによる気象解析、自動運転トラクター、ドローンによる高度なセンシングが飛び交う、極めてスマートな超ハイテク産業へと変貌を遂げています。
+                        「農業高校」と聞くと、ただ土を耕すだけのイメージを持っていませんか？<br>
+                        西条農業高校は違います。私たちの合言葉は、<strong>「デジタルの力を、農業と教育現場へ。」</strong><br>
+                        数年前より教育現場でのスマート化を徹底的に推進し、生徒ひとりひとりがiPadを自在に操り、アプリ（FileMaker）のローコード開発、3Dプリンターでのものづくりなど、最新デジタル技術を身につけています。
                     </p>
                     <p class="text-gray-600">
-                        私たちの学校では、大地の恵みに感謝する伝統的な農業精神を大切にしながら、世界基準の環境科学、生命バイオ、そしてビジネスマネジメントを統合的にカリキュラムへ導入。次世代の地球を耕す「起業家・科学者」を育成します。
+                        西条の恵まれた大自然と、最先端のデジタルインフラのハイブリッド。これこそが他校には絶対に真似できない、西条農業高校だけの新しい教育スタイルです。
                     </p>
                     <div class="pt-4">
-                        <div class="border-l-4 border-brand-500 pl-4 py-2 bg-brand-50 rounded-r-lg">
-                            <p class="text-sm font-semibold text-brand-700 italic">
-                                「食べることは、生きること。スマート農業で、地球の未来とすべての人々の幸福をデザインする力を、ここで手に入れよう。」
+                        <div class="border-l-4 border-water-500 pl-4 py-2 bg-water-50 rounded-r-lg">
+                            <p class="text-sm font-semibold text-water-600 italic">
+                                「うちぬきの名水で最高の作物を作り、デジタルとアイデアで地域の課題を解決する。そんな最高にワクワクする高校生活を、ここで一緒に送りましょう！」
                             </p>
                         </div>
                     </div>
                 </div>
                 
-                <!-- ビジュアルコンポーネント (最新農業のスマートグラフィック感) -->
+                <!-- ビジュアルコンポーネント (水と植物のコラボ) -->
                 <div class="relative">
-                    <div class="absolute inset-0 bg-brand-100 rounded-3xl transform rotate-3 scale-102"></div>
+                    <div class="absolute inset-0 bg-water-50 rounded-3xl transform rotate-3 scale-102"></div>
                     <div class="relative bg-white p-4 rounded-3xl shadow-xl border border-gray-100">
-                        <img src="https://images.unsplash.com/photo-1563514223749-b5d400acbe50?auto=format&fit=crop&q=80&w=1000" alt="ドローンを使用する近代農業" class="w-full h-80 object-cover rounded-2xl mb-6">
+                        <img src="https://images.unsplash.com/photo-1595855759920-86582396756a?auto=format&fit=crop&q=80&w=1000" alt="みずみずしい農業植物実習" class="w-full h-80 object-cover rounded-2xl mb-6">
                         <div class="flex items-center gap-4">
-                            <div class="bg-brand-500 text-white w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
-                                <i class="fa-solid fa-graduation-cap text-lg"></i>
+                            <div class="bg-water-500 text-white w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-droplet text-lg"></i>
                             </div>
                             <div>
-                                <h4 class="font-bold text-gray-900">伝統×先進イノベーション</h4>
-                                <p class="text-xs text-gray-500">机上の勉強だけじゃない。五感で学び、科学で未来を証明する日々が待っています。</p>
+                                <h4 class="font-bold text-gray-900">水の都・西条だからできる学び</h4>
+                                <p class="text-xs text-gray-500">西条名水「うちぬき」を活用した、みずみずしい作物づくりと最高峰の環境サイエンス。</p>
                             </div>
                         </div>
                     </div>
@@ -258,80 +259,80 @@
     </section>
 
     <!-- =========================================================================
-         3. 学校の3つの強み (特徴解説)
+         3. 愛媛県立西条農業高校の「3つの専門学科」
          ========================================================================= -->
-    <section id="strengths" class="py-20 bg-brand-50">
+    <section id="departments" class="py-20 bg-brand-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-brand-500 font-bold tracking-widest text-sm uppercase block mb-2">Our Strengths</span>
-                <h2 class="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">他校にはない、本校だけの3つの特色</h2>
-                <p class="text-gray-500 mt-2">夢を現実に、可能性を無限大に引き出す教育環境が揃っています。</p>
-                <div class="h-1 w-20 bg-brand-light mx-auto mt-4"></div>
+                <span class="text-brand-500 font-bold tracking-widest text-sm uppercase block mb-2">Our Departments</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">あなたの夢を見つける実在の3つの学科</h2>
+                <p class="text-gray-500 mt-2">専門知識、最先端テクノロジー、生活に直結する暮らしのスキルを磨きます。</p>
+                <div class="h-1 w-20 bg-water-500 mx-auto mt-4"></div>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- 強み1 -->
+                <!-- 学科1: 食農科学科 -->
                 <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all transform hover:-translate-y-1">
                     <div class="h-48 relative">
-                        <img src="https://images.unsplash.com/photo-1473976375851-450207b39477?auto=format&fit=crop&q=80&w=800" alt="スマート農業機材" class="w-full h-full object-cover">
-                        <span class="absolute top-4 left-4 bg-brand-500 text-white text-xs font-black px-3.5 py-1.5 rounded-full uppercase tracking-wider">POINT 01</span>
+                        <img src="https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&q=80&w=800" alt="食農科学科の実習" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-brand-500 text-white text-xs font-black px-3.5 py-1.5 rounded-full uppercase tracking-wider">食・農のプロ</span>
                     </div>
                     <div class="p-6">
                         <div class="flex items-center gap-3 mb-4">
                             <div class="bg-brand-50 text-brand-500 w-10 h-10 rounded-lg flex items-center justify-center">
-                                <i class="fa-solid fa-robot text-lg"></i>
+                                <i class="fa-solid fa-wheat-awn text-lg"></i>
                             </div>
-                            <h3 class="font-bold text-lg text-gray-900">先進スマート農業とロボティクス</h3>
+                            <h3 class="font-bold text-lg text-gray-900">食農科学科</h3>
                         </div>
                         <p class="text-gray-600 text-sm mb-4 leading-relaxed">
-                            校内の広大な実習フィールドには、GPS自動運転トラクターやドローンを配備。作物の成長状態をAIが分析する最先端システムを実際に操作し、実践的なプログラミングやデータ解析スキルを高校生から学びます。
+                            作物、野菜、果樹に関する基礎的な知識から最先端の栽培技術をじっくり習得。おいしくて安心・安全な農産物の生産に加え、収穫したての恵みを加工・販売するまでの「食と農」の全プロセスを実体験として学びます。
                         </p>
                         <div class="bg-brand-50 p-3.5 rounded-xl text-xs font-semibold text-brand-700">
-                            💡 ドローン操縦ライセンスの取得もサポート！
+                            🍇 西条の特産ぶどうや高品質メロンの栽培実習も大人気！
                         </div>
                     </div>
                 </div>
 
-                <!-- 強み2 -->
+                <!-- 学科2: 環境工学科 -->
                 <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all transform hover:-translate-y-1">
                     <div class="h-48 relative">
-                        <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800" alt="ブランド野菜開発" class="w-full h-full object-cover">
-                        <span class="absolute top-4 left-4 bg-brand-500 text-white text-xs font-black px-3.5 py-1.5 rounded-full uppercase tracking-wider">POINT 02</span>
+                        <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&q=80&w=800" alt="環境工学科の実習" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-water-500 text-white text-xs font-black px-3.5 py-1.5 rounded-full uppercase tracking-wider">土木・環境保全</span>
                     </div>
                     <div class="p-6">
                         <div class="flex items-center gap-3 mb-4">
-                            <div class="bg-brand-50 text-brand-500 w-10 h-10 rounded-lg flex items-center justify-center">
-                                <i class="fa-solid fa-store text-lg"></i>
+                            <div class="bg-water-50 text-water-500 w-10 h-10 rounded-lg flex items-center justify-center">
+                                <i class="fa-solid fa-compass-drafting text-lg"></i>
                             </div>
-                            <h3 class="font-bold text-lg text-gray-900">地域と連携した食品ブランド開発</h3>
+                            <h3 class="font-bold text-lg text-gray-900">環境工学科</h3>
                         </div>
                         <p class="text-gray-600 text-sm mb-4 leading-relaxed">
-                            ただ作るだけでなく、「売る」ところまで学ぶのが本校の流儀。地域の有名ホテルや高級スーパーと連携し、独自の高糖度トマトや特産フルーツのジュースを生徒自らがプロデュース。マーケティングを体感します。
+                            環境の調査、快適な空間の創造・保全に携わる人材を育成。2年次から「農業土木コース（測量・土木設計、ドローン活用）」と「環境化学コース（環境保全や水質調査）」に分かれて、実践的な社会インフラ技術を磨きます。
                         </p>
-                        <div class="bg-brand-50 p-3.5 rounded-xl text-xs font-semibold text-brand-700">
-                            💡 生徒が作ったブランド品が、百貨店で即完売に！
+                        <div class="bg-water-50 p-3.5 rounded-xl text-xs font-semibold text-water-700">
+                            📐 測量士補や危険物取扱者などの国家資格に挑戦できる！
                         </div>
                     </div>
                 </div>
 
-                <!-- 強み3 -->
+                <!-- 学科3: 生活デザイン科 -->
                 <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all transform hover:-translate-y-1">
                     <div class="h-48 relative">
-                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800" alt="卒業式・キャリア" class="w-full h-full object-cover">
-                        <span class="absolute top-4 left-4 bg-brand-500 text-white text-xs font-black px-3.5 py-1.5 rounded-full uppercase tracking-wider">POINT 03</span>
+                        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=800" alt="生活デザイン科の実習" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-pink-500 text-white text-xs font-black px-3.5 py-1.5 rounded-full uppercase tracking-wider">衣・食・保育・福祉</span>
                     </div>
                     <div class="p-6">
                         <div class="flex items-center gap-3 mb-4">
-                            <div class="bg-brand-50 text-brand-500 w-10 h-10 rounded-lg flex items-center justify-center">
-                                <i class="fa-solid fa-graduation-cap text-lg"></i>
+                            <div class="bg-pink-50 text-pink-500 w-10 h-10 rounded-lg flex items-center justify-center">
+                                <i class="fa-solid fa-shirt text-lg"></i>
                             </div>
-                            <h3 class="font-bold text-lg text-gray-900">国公立大農学部への高い進学実績</h3>
+                            <h3 class="font-bold text-lg text-gray-900">生活デザイン科</h3>
                         </div>
                         <p class="text-gray-600 text-sm mb-4 leading-relaxed">
-                            推薦入試やAO入試をフル活用。高校時代の実用的な研究論文や、ビジネスプランコンテストの受賞実績が最大の武器となります。もちろん大手農業法人や食品メーカー、公務員（農業専門職）への就職実績も県内トップ。
+                            調理、被服（和裁・洋裁）、保育、福祉など、私たちの毎日のライフスタイルを豊かにする家庭科領域を総合的に学習。季節の草花を愛でる園芸の授業も取り入れ、将来の医療・福祉・アパレル・食産業で輝く力を育みます。
                         </p>
-                        <div class="bg-brand-50 p-3.5 rounded-xl text-xs font-semibold text-brand-700">
-                            💡 進路選択の幅広さ：進学 60％、就職 40％！
+                        <div class="bg-pink-50 p-3.5 rounded-xl text-xs font-semibold text-pink-700">
+                            🌸 自分たちの手で調理し、地域を幸せにするイベントも開催！
                         </div>
                     </div>
                 </div>
@@ -340,125 +341,136 @@
     </section>
 
     <!-- =========================================================================
-         4. 未来のキャリアマップ
+         4. 西農だけの最大の特徴：「全科でデジタルラボ利用」＆「学科横断コラボ」
          ========================================================================= -->
-    <section id="careers" class="py-20 bg-white">
+    <section id="projects" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-brand-500 font-bold tracking-widest text-sm uppercase block mb-2">Career Roadmap</span>
-                <h2 class="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">農業高校から羽ばたく多彩な未来</h2>
-                <p class="text-gray-500 mt-2">卒業後の進路は無限大。農業の可能性は世界中に繋がっています。</p>
-                <div class="h-1 w-20 bg-brand-light mx-auto mt-4"></div>
+                <span class="text-water-500 font-bold tracking-widest text-sm uppercase block mb-2">Saino Innovation</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">西条農業だからこそできる、2つの独自の挑戦</h2>
+                <div class="h-1 w-20 bg-brand-500 mx-auto mt-4"></div>
             </div>
 
-            <div class="grid md:grid-cols-4 gap-6 text-center">
-                <!-- キャリア1 -->
-                <div class="p-6 bg-brand-50/50 rounded-2xl border border-gray-100 flex flex-col items-center">
-                    <div class="w-16 h-16 bg-white shadow-md rounded-full flex items-center justify-center text-brand-500 text-2xl mb-4">
-                        <i class="fa-solid fa-vial"></i>
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- 特徴1: 全科デジタルラボ＆アプリ開発 -->
+                <div class="bg-brand-50/50 rounded-3xl p-8 border border-brand-100 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="bg-brand-500 text-white w-14 h-14 rounded-2xl flex items-center justify-center text-2xl shadow-md">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">全科デジタルラボ ＆ ローコードアプリ開発</h3>
+                                <p class="text-xs text-brand-500 font-semibold">教育の常識を覆すITインフラ</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 text-sm mb-6 leading-relaxed">
+                            西条農業高校では、全科の生徒が**「デジタルラボ」**を駆使しています。例えば、最新の「3Dプリンター」を用いて、食農科学科が水耕栽培を行うための独自の栽培用プラスチックポットを自作。さらにiPadを使って、自分たちの授業管理や作物分析を行うための簡易アプリ（FileMaker）を授業の一環として作成するなど、あらゆる進路で役立つデジタル創造力を身につけています。
+                        </p>
                     </div>
-                    <h4 class="font-bold text-gray-900 mb-2">研究者・バイオ技術者</h4>
-                    <p class="text-xs text-gray-500 leading-relaxed">大学等で植物のゲノム解析や品種改良、代替素材の研究、宇宙農業などの最先端バイオを追求します。</p>
+                    <div class="bg-white p-4 rounded-2xl text-xs font-bold text-gray-700 border border-brand-100/60 flex items-center gap-3">
+                        <i class="fa-solid fa-microchip text-brand-500 text-lg"></i>
+                        <span>全国の農業高校に先駆けたDX先進校として注目を集めています！</span>
+                    </div>
                 </div>
-                <!-- キャリア2 -->
-                <div class="p-6 bg-brand-50/50 rounded-2xl border border-gray-100 flex flex-col items-center">
-                    <div class="w-16 h-16 bg-white shadow-md rounded-full flex items-center justify-center text-brand-500 text-2xl mb-4">
-                        <i class="fa-solid fa-helicopter"></i>
+
+                <!-- 特徴2: 3つの学科が手をつなぐ「山岳・地域連携コラボ」 -->
+                <div class="bg-water-50/50 rounded-3xl p-8 border border-water-100 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="bg-water-500 text-white w-14 h-14 rounded-2xl flex items-center justify-center text-2xl shadow-md">
+                                <i class="fa-solid fa-people-group"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">学科の垣根を超える「西農ならではのコラボ」</h3>
+                                <p class="text-xs text-water-600 font-semibold">食・器・調理の最強ループ</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 text-sm mb-6 leading-relaxed">
+                            食農科学科・環境工学科・生活デザイン科の3つの学科は別々に学ぶだけではありません。<br>
+                            「食農科学科」が愛情込めて育てた極上食材を提供し、それを「環境工学科」が木工や新技術で制作した器（うつわ）へ盛り付け、最後に「生活デザイン科」の調理チームが最高のフルコース料理に仕上げて、地元西条の方々に提供・おもてなしをしています。この学科横断のものづくりこそ、本校独自の大きな魅力です。
+                        </p>
                     </div>
-                    <h4 class="font-bold text-gray-900 mb-2">スマート農業エンジニア</h4>
-                    <p class="text-xs text-gray-500 leading-relaxed">自動化農機の設計、IoTセンシングシステムの保守など、農業分野の最先端を支えるエンジニアへ。</p>
-                </div>
-                <!-- キャリア3 -->
-                <div class="p-6 bg-brand-50/50 rounded-2xl border border-gray-100 flex flex-col items-center">
-                    <div class="w-16 h-16 bg-white shadow-md rounded-full flex items-center justify-center text-brand-500 text-2xl mb-4">
-                        <i class="fa-solid fa-briefcase"></i>
+                    <div class="bg-white p-4 rounded-2xl text-xs font-bold text-gray-700 border border-water-100/60 flex items-center gap-3">
+                        <i class="fa-solid fa-users text-water-500 text-lg"></i>
+                        <span>各学科のプロ意識とチームワークが、素晴らしい地域貢献活動に直結！</span>
                     </div>
-                    <h4 class="font-bold text-gray-900 mb-2">アグリ起業家・経営者</h4>
-                    <p class="text-xs text-gray-500 leading-relaxed">実家の農業経営のDX化、新規就農、または海外に向けた日本の高品質農産物の輸出ビジネスを牽引。</p>
-                </div>
-                <!-- キャリア4 -->
-                <div class="p-6 bg-brand-50/50 rounded-2xl border border-gray-100 flex flex-col items-center">
-                    <div class="w-16 h-16 bg-white shadow-md rounded-full flex items-center justify-center text-brand-500 text-2xl mb-4">
-                        <i class="fa-solid fa-shuttle-space"></i>
-                    </div>
-                    <h4 class="font-bold text-gray-900 mb-2">環境ビジネス・公務員</h4>
-                    <p class="text-xs text-gray-500 leading-relaxed">持続可能な社会作りのため、行政や環境コンサルティング会社などで、SDGs政策の立案、推進に関わります。</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- =========================================================================
-         5. 在校生・卒業生・保護者の声
+         5. 在校生・卒業生の声 (愛媛・西農のリアルな高校生活)
          ========================================================================= -->
     <section id="voices" class="py-20 bg-brand-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <span class="text-brand-500 font-bold tracking-widest text-sm uppercase block mb-2">Voice of student</span>
-                <h2 class="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">生徒と保護者の生の声</h2>
-                <div class="h-1 w-20 bg-brand-light mx-auto mt-4"></div>
+                <h2 class="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">西農(さいのう)で輝く先輩たち</h2>
+                <div class="h-1 w-20 bg-water-500 mx-auto mt-4"></div>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- 声1：在校生 -->
+                <!-- 在校生1：食農科学科 -->
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col justify-between">
                     <div>
                         <div class="flex items-center gap-1 text-yellow-400 mb-4">
                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                         </div>
                         <p class="text-gray-600 text-sm mb-6 leading-relaxed">
-                            「普通の中学校での勉強は机の上ばかりでしたが、この学校に来てからは、自分たちの手で大根を育て、それをドローンで観測して、さらに独自のECサイトで販売するまでを経験。まるで大人のビジネスマンになったようで、毎日ワクワクが止まりません！」
+                            「ぶどうやメロンの管理をする実習は大変ですが、西条の名水『うちぬき』で育った果物は一味も二味も違って本当に美味しいです。自分たちが開発したトマトやいちごを販売した時に、地元のお客さんから直接『美味しい！また買いに来るよ！』と笑顔で言ってもらえる瞬間が最高です。」
                         </p>
                     </div>
                     <div class="flex items-center gap-3 pt-4 border-t border-gray-50">
                         <div class="w-10 h-10 bg-brand-100 rounded-full flex items-center justify-center text-brand-500 font-bold text-xs">
-                            生徒
+                            食農
                         </div>
                         <div>
-                            <span class="font-bold text-gray-900 text-sm block">園芸デザイン科 2年</span>
-                            <span class="text-xs text-gray-400">佐藤 優太 さん（地元中学校出身）</span>
+                            <span class="font-bold text-gray-900 text-sm block">食農科学科 2年</span>
+                            <span class="text-xs text-gray-400">高橋 駿介 さん（新居浜市の中学校出身）</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- 声2：卒業生 -->
+                <!-- 在校生2：環境工学科 -->
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col justify-between">
                     <div>
                         <div class="flex items-center gap-1 text-yellow-400 mb-4">
                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                         </div>
                         <p class="text-gray-600 text-sm mb-6 leading-relaxed">
-                            「高校時代に地域プロジェクトで『機能性トマトジュース』を商品化した実績が認められ、国公立大学のAO入試に合格しました。高校で学んだ遺伝解析の基礎が、現在の大学での研究でもそのまま大きなアドバンテージになっています。」
+                            「ドローンを使った新しい測量実習や3Dプリンターでものづくりなど、最先端のデジタル技術を学べる点に惹かれて環境工学科に進みました。先生方も熱心に資格取得をサポートしてくれたおかげで、測量士補の国家試験にも一発で合格。確かな自信になりました！」
                         </p>
                     </div>
                     <div class="flex items-center gap-3 pt-4 border-t border-gray-50">
-                        <div class="w-10 h-10 bg-brand-100 rounded-full flex items-center justify-center text-brand-500 font-bold text-xs">
-                            卒業
+                        <div class="w-10 h-10 bg-water-100 rounded-full flex items-center justify-center text-water-500 font-bold text-xs">
+                            環境
                         </div>
                         <div>
-                            <span class="font-bold text-gray-900 text-sm block">〇〇大学 農学部 在学中</span>
-                            <span class="text-xs text-gray-400">田中 陽菜 さん（2025年 卒業生）</span>
+                            <span class="font-bold text-gray-900 text-sm block">環境工学科 3年</span>
+                            <span class="text-xs text-gray-400">矢野 美咲 さん（西条市内中学校出身）</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- 声3：保護者 -->
+                <!-- 在校生3：生活デザイン科 -->
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col justify-between">
                     <div>
                         <div class="flex items-center gap-1 text-yellow-400 mb-4">
                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                         </div>
                         <p class="text-gray-600 text-sm mb-6 leading-relaxed">
-                            「最初は、農業高校に進むと就職しか選択肢がないのではと不安でしたが、説明会でその科学的レベルの高さと進路の多様性を知り納得しました。息子自身が本当に生き生きと目を輝かせて通っており、主体性がすごく身につきました。」
+                            「調理実習だけでなく、地域の保育所や高齢者施設と交流する福祉活動も充実しています。他科の生徒が作った食材を使って自分たちがレシピを考えておもてなしをするのが一番の楽しみ。西農で学んだおもてなしの心は一生の宝物です。」
                         </p>
                     </div>
                     <div class="flex items-center gap-3 pt-4 border-t border-gray-50">
-                        <div class="w-10 h-10 bg-brand-100 rounded-full flex items-center justify-center text-brand-500 font-bold text-xs">
-                            保護者
+                        <div class="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center text-pink-500 font-bold text-xs">
+                            生活
                         </div>
                         <div>
-                            <span class="font-bold text-gray-900 text-sm block">在校生（1年）の保護者</span>
-                            <span class="text-xs text-gray-400">鈴木 美香 さん（公務員）</span>
+                            <span class="font-bold text-gray-900 text-sm block">生活デザイン科 2年</span>
+                            <span class="text-xs text-gray-400">近藤 ゆい さん（西条市内中学校出身）</span>
                         </div>
                     </div>
                 </div>
@@ -477,44 +489,44 @@
                 
                 <div class="relative z-10 grid lg:grid-cols-2">
                     <div class="p-8 sm:p-12 lg:p-16 space-y-6">
-                        <span class="inline-block bg-brand-light text-brand-700 text-xs font-black tracking-widest px-4 py-1.5 rounded-full uppercase">
-                            夏・秋開催 予約受付中！
+                        <span class="inline-block bg-water-500 text-white text-xs font-black tracking-widest px-4 py-1.5 rounded-full uppercase">
+                            夏休み開催！西農オープン体験
                         </span>
                         <h2 class="text-3xl sm:text-4xl font-black tracking-tight leading-tight">
-                            百聞は一見に如かず！<br>
-                            「アグリテック体験フェス」
+                            水の都・西条で体感する！<br>
+                            「西農アグリ体験フェス」
                         </h2>
                         <p class="text-brand-100 text-sm leading-relaxed">
-                            実際にドローンを操作したり、スマート温室を見学したり、私たちが育てた超高糖度フルーツの試食ができる、1日限りのプレミアムな体験授業を開催します。保護者の方専用の相談ブースも完備しています。
+                            西農が誇る最新の3Dプリンター実演、うちぬきの水を使った水耕栽培の見学、自慢の特産ぶどうの試食など、西農ならではのユニークな授業を1日限りで体験できるイベントです。学科ごとに異なるブースを用意しています！
                         </p>
                         
                         <div class="space-y-4 pt-4 border-t border-brand-600">
                             <div class="flex items-start gap-3">
                                 <i class="fa-solid fa-calendar-days text-brand-light text-lg mt-1"></i>
                                 <div>
-                                    <span class="font-bold block">開催日</span>
-                                    <span class="text-sm text-brand-100">第1回：7月25日(土) / 第2回：8月22日(土) [両日10:00〜15:00]</span>
+                                    <span class="font-bold block">開催日時</span>
+                                    <span class="text-sm text-brand-100">第1回：7月25日(土) / 第2回：8月22日(土)<br>[9:30〜12:30・受付9:00〜]</span>
                                 </div>
                             </div>
                             <div class="flex items-start gap-3">
                                 <i class="fa-solid fa-map-location-dot text-brand-light text-lg mt-1"></i>
                                 <div>
                                     <span class="font-bold block">開催場所</span>
-                                    <span class="text-sm text-brand-100">アグリテックハイスクール 本校メインキャンパス</span>
+                                    <span class="text-sm text-brand-100">愛媛県立西条農業高等学校 敷地内メイン校舎・デジタルラボ</span>
                                 </div>
                             </div>
                             <div class="flex items-start gap-3">
                                 <i class="fa-solid fa-users-line text-brand-light text-lg mt-1"></i>
                                 <div>
-                                    <span class="font-bold block">対象者</span>
-                                    <span class="text-sm text-brand-100">中学3年生、保護者様（先着50組様限定・完全無料）</span>
+                                    <span class="font-bold block">対象</span>
+                                    <span class="text-sm text-brand-100">東予地域の中学3年生、保護者の方々（無料）</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
                     <div class="relative min-h-[300px] lg:h-auto">
-                        <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&q=80&w=1000" alt="体験農業プログラム" class="absolute inset-0 w-full h-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&q=80&w=1000" alt="西条農業高校体験実習プログラム" class="absolute inset-0 w-full h-full object-cover">
                     </div>
                 </div>
             </div>
@@ -522,26 +534,26 @@
     </section>
 
     <!-- =========================================================================
-         7. よくある質問 (FAQ Accordion)
+         7. よくある質問 (西農にまつわる疑問)
          ========================================================================= -->
     <section class="py-20 bg-gray-50">
         <div class="max-w-3xl mx-auto px-4 sm:px-6">
             <div class="text-center mb-12">
                 <span class="text-brand-500 font-bold tracking-widest text-sm block mb-2">Q&A</span>
                 <h2 class="text-3xl font-black text-gray-900">よくあるご質問</h2>
-                <div class="h-1 w-20 bg-brand-light mx-auto mt-4"></div>
+                <div class="h-1 w-20 bg-water-500 mx-auto mt-4"></div>
             </div>
 
             <div class="space-y-4">
                 <!-- 質問1 -->
                 <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
                     <button class="faq-toggle w-full p-6 text-left font-bold text-gray-900 flex justify-between items-center focus:outline-none">
-                        <span>Q. 普通の中学校からでも、技術的に授業についていけますか？</span>
+                        <span>Q. 西条市以外の新居浜や今治などから通学している生徒はいますか？</span>
                         <i class="fa-solid fa-plus text-brand-500 transition-transform"></i>
                     </button>
                     <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                         <div class="p-6 pt-0 text-sm text-gray-600 border-t border-gray-50 leading-relaxed">
-                            もちろん大丈夫です！在校生の9割が普通の中学校の出身で、農業の経験はゼロからスタートしています。基礎から丁寧に実技と理論を教えるので、段階を踏んで安心してスマート農機やIT技術まで身につけることができます。
+                            はい、非常にたくさん通っています！JR伊予西条駅から自転車で無理なく通える距離にあり、新居浜市や今治市、四国中央市などから毎日電車やバス等を利用して通学している生徒が多数在籍しています。
                         </div>
                     </div>
                 </div>
@@ -549,12 +561,12 @@
                 <!-- 質問2 -->
                 <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
                     <button class="faq-toggle w-full p-6 text-left font-bold text-gray-900 flex justify-between items-center focus:outline-none">
-                        <span>Q. 普通科の高校と同じような、大学受験向けの科目勉強もありますか？</span>
+                        <span>Q. 農業高校に進むと、卒業後の進路はどうなりますか？就職ばかりですか？</span>
                         <i class="fa-solid fa-plus text-brand-500 transition-transform"></i>
                     </button>
                     <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                         <div class="p-6 pt-0 text-sm text-gray-600 border-t border-gray-50 leading-relaxed">
-                            はい、国公立大学や有名私立大学への進学コースを設置しており、共通テストや個別試験に対応する「国語・英語・数学・理科」といった基礎科目も補習や夏期講習を交えて手厚くフォローしています。本校独自の推薦枠も豊富です。
+                            いいえ、就職だけでなく進学も非常に盛んです。愛媛大学をはじめとする国公立大学の農学部や環境土木系学部、専門学校等への推薦進学実績が豊富にあります。もちろん、東予の優良製造業、土木会社、造園企業、食・農業関連法人や公務員（行政・農業技術）など、高い求人倍率を活かした就職実績も誇っています。
                         </div>
                     </div>
                 </div>
@@ -562,12 +574,12 @@
                 <!-- 質問3 -->
                 <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
                     <button class="faq-toggle w-full p-6 text-left font-bold text-gray-900 flex justify-between items-center focus:outline-none">
-                        <span>Q. 部活動や、他の学校生活（行事）はどうなっていますか？</span>
+                        <span>Q. パソコンやiPad、スマート機器の操作が得意ではないのですが大丈夫ですか？</span>
                         <i class="fa-solid fa-plus text-brand-500 transition-transform"></i>
                     </button>
                     <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                         <div class="p-6 pt-0 text-sm text-gray-600 border-t border-gray-50 leading-relaxed">
-                            運動部・文化部ともに活動は活発で、特に地域伝統の部活や食品研究部、ロボット研究会などユニークな部活もあります。文化祭は自分たちが作った新鮮な野菜や加工食品が大好評で、毎年数千人の地域の方が訪れる一大イベントです！
+                            まったく問題ありません！入学後に、1人1台のiPadを用いた情報の授業や基本操作から分かりやすく学びます。最初はデジタルに不慣れだった生徒たちも、2年〜3年になる頃にはプログラミング的なアプリ（FileMaker）を簡単に組み立てたり、3Dプリンターで自在にデータ作成ができるほど成長していきます。
                         </div>
                     </div>
                 </div>
@@ -583,27 +595,27 @@
         <div class="max-w-4xl mx-auto px-4 sm:px-6 relative z-10">
             <div class="bg-white rounded-3xl shadow-xl p-8 sm:p-12 border border-gray-100">
                 <div class="text-center max-w-2xl mx-auto mb-10">
-                    <span class="text-accent font-bold tracking-widest text-sm uppercase block mb-2">Apply Now</span>
+                    <span class="text-accent font-bold tracking-widest text-sm uppercase block mb-2">Apply Online</span>
                     <h2 class="text-2xl sm:text-3xl font-black text-gray-900">オープンキャンパス簡単1分申込</h2>
-                    <p class="text-xs text-gray-500 mt-2">※完全予約制となります。以下のフォームに入力の上、送信してください。</p>
+                    <p class="text-xs text-gray-500 mt-2">※完全予約制です。参加希望日のフォームを入力し送信してください。</p>
                 </div>
 
-                <!-- お問い合わせ送信完了メッセージ（非表示・JSで切替） -->
+                <!-- 送信完了メッセージ（非表示・JSで制御） -->
                 <div id="success-message" class="hidden bg-emerald-50 border border-emerald-200 p-6 rounded-2xl text-center text-emerald-800 space-y-3">
                     <i class="fa-solid fa-circle-check text-4xl text-emerald-500"></i>
                     <h3 class="font-bold text-lg">お申し込み、ありがとうございます！</h3>
-                    <p class="text-sm">ご入力いただいたメールアドレス宛に、自動返信にて受講案内を送信いたしました。当日お会いできることを楽しみにしております！</p>
+                    <p class="text-sm">ご入力いただいたメールアドレス宛に、自動返信にて「西農オープンキャンパス受講案内」をお送りいたしました。当日は「うちぬきの恵み」と最新のスマート体験でお待ちしております！</p>
                 </div>
 
                 <form id="apply-form" class="space-y-6">
                     <div class="grid sm:grid-cols-2 gap-6">
                         <div>
                             <label class="block text-sm font-bold text-gray-700 mb-2">お名前 <span class="text-red-500">*</span></label>
-                            <input type="text" required placeholder="例：山田 太郎" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all outline-none">
+                            <input type="text" required placeholder="例：西条 太郎" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all outline-none">
                         </div>
                         <div>
                             <label class="block text-sm font-bold text-gray-700 mb-2">ふりがな <span class="text-red-500">*</span></label>
-                            <input type="text" required placeholder="例：やまだ たろう" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all outline-none">
+                            <input type="text" required placeholder="例：さいじょう たろう" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all outline-none">
                         </div>
                     </div>
 
@@ -623,29 +635,29 @@
                             <label class="block text-sm font-bold text-gray-700 mb-2">参加希望日程 <span class="text-red-500">*</span></label>
                             <select required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all outline-none bg-white">
                                 <option value="">選択してください</option>
-                                <option value="date-1">第1回：7月25日(土) 10:00〜15:00</option>
-                                <option value="date-2">第2回：8月22日(土) 10:00〜15:00</option>
-                                <option value="pamphlet">まずは資料請求のみ希望</option>
+                                <option value="date-1">第1回：7月25日(土) 9:30〜12:30</option>
+                                <option value="date-2">第2回：8月22日(土) 9:30〜12:30</option>
+                                <option value="pamphlet">まずは学校案内パンフレットの郵送のみ希望</option>
                             </select>
                         </div>
                     </div>
 
                     <div>
                         <label class="block text-sm font-bold text-gray-700 mb-2">メールアドレス <span class="text-red-500">*</span></label>
-                        <input type="email" required placeholder="例：sample@example.com" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all outline-none">
+                        <input type="email" required placeholder="例：saijo@example.com" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all outline-none">
                     </div>
 
                     <div>
-                        <label class="block text-sm font-bold text-gray-700 mb-2">電話番号（連絡のつきやすいもの）</label>
-                        <input type="tel" placeholder="例：090-1234-5678" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all outline-none">
+                        <label class="block text-sm font-bold text-gray-700 mb-2">電話番号（緊急時用）</label>
+                        <input type="tel" placeholder="例：0897-1234-5678" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all outline-none">
                     </div>
 
                     <div>
-                        <label class="block text-sm font-bold text-gray-700 mb-2">質問事項・気になること（任意）</label>
-                        <textarea rows="3" placeholder="（例）進学や寮についての詳しいお話を伺いたいです。" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all outline-none resize-none"></textarea>
+                        <label class="block text-sm font-bold text-gray-700 mb-2">質問・興味のある学科など（任意）</label>
+                        <textarea rows="3" placeholder="（例）環境工学科のドローン測量に興味があります。新居浜からのアクセスについて教えてほしいです。" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all outline-none resize-none"></textarea>
                     </div>
 
-                    <!-- 個人情報保護方針合意 -->
+                    <!-- 個人情報合意 -->
                     <div class="flex items-start gap-2 py-2">
                         <input type="checkbox" required id="agree" class="mt-1 accent-brand-500 h-4 w-4">
                         <label for="agree" class="text-xs text-gray-500 select-none cursor-pointer">
@@ -668,35 +680,35 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-8">
             <div class="space-y-4">
                 <div class="flex items-center gap-3">
-                    <div class="bg-brand-500 text-white p-2 rounded-lg">
+                    <div class="bg-brand-500 text-white p-2.5 rounded-lg">
                         <i class="fa-seedling fa-solid text-xl"></i>
                     </div>
-                    <span class="text-lg font-bold text-white tracking-tight">アグリテックハイスクール</span>
+                    <span class="text-lg font-bold text-white tracking-tight">愛媛県立西条農業高等学校</span>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed">
-                    学校法人みらい農業学園<br>
-                    〒790-0001 愛媛県松山市一番町1丁目2-3<br>
-                    TEL: 089-123-4567 / Email: info@agritech.edu.jp
+                    〒793-0028 愛媛県西条市新田147番地<br>
+                    TEL: 0897-56-0275 / FAX: 0897-56-0158<br>
+                    HP: https://saijo-ah.esnet.ed.jp
                 </p>
             </div>
             
             <div>
-                <h4 class="font-bold text-white text-sm mb-4">学科・コース紹介</h4>
+                <h4 class="font-bold text-white text-sm mb-4">西農の専門学科</h4>
                 <ul class="space-y-2 text-xs">
-                    <li><a href="#" class="hover:text-brand-light transition-colors">■ スマートアグリシステム科</a></li>
-                    <li><a href="#" class="hover:text-brand-light transition-colors">■ バイオテクノロジー開発科</a></li>
-                    <li><a href="#" class="hover:text-brand-light transition-colors">■ 食品ビジネスクリエイト科</a></li>
+                    <li><a href="#departments" class="hover:text-brand-light transition-colors">■ 食農科学科</a></li>
+                    <li><a href="#departments" class="hover:text-brand-light transition-colors">■ 環境工学科</a></li>
+                    <li><a href="#departments" class="hover:text-brand-light transition-colors">■ 生活デザイン科</a></li>
                 </ul>
             </div>
 
             <div>
-                <h4 class="font-bold text-white text-sm mb-4 font-sans">各種リンク・SNS</h4>
+                <h4 class="font-bold text-white text-sm mb-4 font-sans">西条農業公式・地域情報</h4>
                 <div class="flex gap-4 mb-4">
                     <a href="#" class="w-8 h-8 rounded-full bg-gray-800 hover:bg-brand-500 text-white flex items-center justify-center transition-colors"><i class="fa-brands fa-x-twitter"></i></a>
                     <a href="#" class="w-8 h-8 rounded-full bg-gray-800 hover:bg-brand-500 text-white flex items-center justify-center transition-colors"><i class="fa-brands fa-instagram"></i></a>
                     <a href="#" class="w-8 h-8 rounded-full bg-gray-800 hover:bg-brand-500 text-white flex items-center justify-center transition-colors"><i class="fa-brands fa-youtube"></i></a>
                 </div>
-                <p class="text-[10px] text-gray-600">© 2026 Mirai Agriculture Academy. All rights reserved.</p>
+                <p class="text-[10px] text-gray-600">© 2026 Ehime Prefectural Saijo Agricultural High School. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -725,8 +737,6 @@
                 const content = button.nextElementSibling;
                 const icon = button.querySelector('i');
                 
-                // 他のすべてのアコーディオンを閉じる場合はここでループを回すが、
-                // 今回は個別に開閉できるように設定（マルチオープン）
                 if (content.style.maxHeight && content.style.maxHeight !== '0px') {
                     content.style.maxHeight = '0px';
                     icon.className = 'fa-solid fa-plus text-brand-500 transition-transform duration-200';
@@ -752,7 +762,6 @@
         });
 
         // --- 4. スクロールアニメーション (簡易Intersection Observer) ---
-        // LP全体の要素が滑らかに現れる視覚演出を追加
         const observerOptions = {
             root: null,
             rootMargin: '0px',
@@ -768,7 +777,6 @@
             });
         }, observerOptions);
 
-        // クラスを持つ主要なセクションを監視対象にする
         document.querySelectorAll('section').forEach(section => {
             section.classList.add('fade-in');
             observer.observe(section);
